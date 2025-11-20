@@ -1,0 +1,69 @@
+.containerBox {
+    background-color: black;
+    color: white;
+    padding: 5rem 1em;
+}
+
+.box {
+    padding: 3rem 1rem;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.title {
+    background-color: black;
+    color: yellow;
+    position: absolute;
+    top: -66px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pos {
+    position: absolute;
+    letter-spacing: 5px;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -26px;
+    padding: 1em 2.8em;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+
+.dflex {
+    align-items: center;
+    gap: .4rem;
+    display: flex;
+    /* border: 3px solid white; */
+    max-width: 200px;
+}
+
+.dflex i {
+    background-color: #FFD500;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

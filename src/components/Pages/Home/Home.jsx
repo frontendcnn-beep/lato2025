@@ -19,8 +19,7 @@ export const Home = () => {
                             <i className='fa-solid fa-bars'></i>
                         </span>
                         <p>
-                            oi aquie os demais itemss
-
+                            Front end com html, css, js, tailwind, react e jsx.
                         </p>
                     </div>
                     <div className={styles.dflex}>
@@ -28,8 +27,7 @@ export const Home = () => {
                             <i className='fa-solid fa-bars'></i>
                         </span>
                         <p>
-                            oi aquie os demais itemss
-
+                            Análise backend em Node.js e NoSQL e MySql
                         </p>
                     </div>
                 </div>

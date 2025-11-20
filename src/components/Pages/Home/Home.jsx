@@ -3,7 +3,7 @@ import styles from './Home.module.css';
 export const Home = () => {
     return (
         <section className={styles.containerBox}>
-            <div className='container'>
+            <div className={styles.containerHome}>
                 <div className={styles.box}>
                     <p className={styles.title}>
                         Developed <br />Frontend
